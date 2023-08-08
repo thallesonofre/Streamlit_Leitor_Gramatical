@@ -11,7 +11,7 @@ escolha = bar.selectbox(
     ['Entidades', 'Gramática']
     )
 
-text = st.text_area('Coloque seu texto para verificar a gramática:')
+text = st.text_area('App THES - Coloque o texto para analisar a gramática, depois aparte Ctrl + Enter:')
 
 doc = nlp(text)
 
